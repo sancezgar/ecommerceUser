@@ -1,10 +1,11 @@
 package secretm
 
 import (
-	"ecommerceUser/awsgo"
-	"ecommerceUser/models"
 	"encoding/json"
 	"fmt"
+
+	"github.com/sancezgar/ecommerceUser/awsgo"
+	"github.com/sancezgar/ecommerceUser/models"
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"

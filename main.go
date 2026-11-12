@@ -2,13 +2,14 @@ package main
 
 import (
 	"context"
-	"ecommerceUser/bd"
-	"ecommerceUser/models"
 	"errors"
 	"fmt"
 	"os"
 
-	"ecommerceUser/awsgo"
+	"github.com/sancezgar/ecommerceUser/bd"
+	"github.com/sancezgar/ecommerceUser/models"
+
+	"github.com/sancezgar/ecommerceUser/awsgo"
 
 	"github.com/aws/aws-lambda-go/events"
 	lambda "github.com/aws/aws-lambda-go/lambda"

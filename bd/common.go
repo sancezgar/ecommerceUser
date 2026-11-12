@@ -2,10 +2,11 @@ package bd
 
 import (
 	"database/sql"
-	"ecommerceUser/models"
-	"ecommerceUser/secretm"
 	"fmt"
 	"os"
+
+	"github.com/sancezgar/ecommerceUser/models"
+	"github.com/sancezgar/ecommerceUser/secretm"
 
 	_ "github.com/go-sql-driver/mysql"
 )

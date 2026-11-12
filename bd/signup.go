@@ -1,9 +1,10 @@
 package bd
 
 import (
-	"ecommerceUser/models"
-	"ecommerceUser/tools"
 	"fmt"
+
+	"github.com/sancezgar/ecommerceUser/models"
+	"github.com/sancezgar/ecommerceUser/tools"
 
 	_ "github.com/go-sql-driver/mysql"
 )
